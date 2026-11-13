@@ -6,37 +6,15 @@ from bakery import assert_equal
 from drafter import *
 
 set_website_title("Guitar Shape Explorer")
-
 set_site_information(
-    author="Your Name",
-    description=(
-        "An interactive website where visitors can explore "
-        "different electric guitar body shapes, compare "
-        "guitars, and save their favorites."
-    ),
-    sources=(
-        "Drafter documentation and the guitar research "
-        "sources used for this project."
-    ),
-    planning=["planning.md"],
-    links=[
-        "https://github.com/YOUR-USERNAME/YOUR-REPOSITORY"
-    ]
-)
-
-hide_debug_information()
-set_website_framed(False)
-
-set_website_title("Guitar Shape Explorer")
-set_site_information(
-    author="Your Name",
+    author="Michael Goslin",
     description=(
         "Explore electric guitar body shapes, learn about their designs, "
         "save favorites, compare models, and suggest guitars."
     ),
-    sources="Add the sources you use to research guitar models and descriptions.",
+    sources="Jackson Guitars, Gibson Guitars, Epiphone Guitars, Fender Guitars, PRS Guitars.",
     planning="",
-    links=[]
+    links=[https://chatgpt.com/c/6af74490-c374-83ea-bebd-93b18f97d02b]
 )
 
 
